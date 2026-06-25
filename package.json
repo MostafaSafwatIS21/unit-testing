@@ -1,0 +1,19 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:jasmine": "jasmine ./Jasmin_Lab/globalsTask.spec.js",
+    "test:mocha": "mocha ./Mocha_Lab/index.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "chai": "^6.2.2",
+    "jasmine": "^6.3.0",
+    "mocha": "^11.7.6"
+  }
+}
